@@ -1,4 +1,4 @@
-module microservice-template
+module quazar-evm
 
 go 1.19
 

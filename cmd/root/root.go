@@ -8,8 +8,8 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"microservice-template/config"
-	"microservice-template/internal"
+	"quazar-evm/config"
+	"quazar-evm/internal"
 )
 
 // Cmd returns the root command for the application
