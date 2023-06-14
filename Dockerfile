@@ -31,7 +31,7 @@ FROM scratch
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
 # Copy the built executable from the builder image
-COPY --from=builder /app/template-service /template-service
+COPY --from=builder /app/quazar-evm /quazar-evm
 
 # Set the entrypoint to the executable
-ENTRYPOINT ["/template-service", "serve"]
+ENTRYPOINT ["/quazar-evm", "serve"]
