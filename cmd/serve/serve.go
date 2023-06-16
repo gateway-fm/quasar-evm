@@ -6,7 +6,7 @@ import (
 	"github.com/misnaged/annales/logger"
 	"github.com/spf13/cobra"
 
-	"quazar-evm/internal"
+	"quasar-evm/internal"
 )
 
 // Cmd returns the "serve" command of the application.

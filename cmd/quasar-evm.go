@@ -5,9 +5,9 @@ import (
 
 	"github.com/misnaged/annales/logger"
 
-	"quazar-evm/cmd/root"
-	"quazar-evm/cmd/serve"
-	"quazar-evm/internal"
+	"quasar-evm/cmd/root"
+	"quasar-evm/cmd/serve"
+	"quasar-evm/internal"
 )
 
 // main is the entry point of the application

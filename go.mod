@@ -1,4 +1,4 @@
-module quazar-evm
+module quasar-evm
 
 go 1.19
 

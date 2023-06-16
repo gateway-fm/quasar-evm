@@ -1,5 +1,5 @@
-job "quazar-evm" {
-  group "quazar-evm" {
+job "quasar-evm" {
+  group "quasar-evm" {
     network {
       port "ws" {
         to = 8000
@@ -7,16 +7,16 @@ job "quazar-evm" {
     }
 
     service {
-      name = "quazar-evm"
+      name = "quasar-evm"
       port = "ws"
     }
 
-    task "quazar-evm" {
+    task "quasar-evm" {
       driver = "docker"
       kill_timeout = "20s"
 
       config {
-        image = "andskur/quazar-evm:latest" // must be fulfilled!
+        image = "andskur/quasar-evm:latest" // must be fulfilled!
         ports = ["idx"]
       }
 

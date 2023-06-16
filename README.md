@@ -1,3 +1,3 @@
-# go-quazar-evm
+# go-quasar-evm
 
 // TODO add readme

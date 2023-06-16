@@ -8,7 +8,7 @@ import (
 
 	version "github.com/misnaged/annales/versioner"
 
-	"quazar-evm/config"
+	"quasar-evm/config"
 )
 
 // App is main microservice application instance that

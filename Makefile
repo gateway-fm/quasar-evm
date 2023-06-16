@@ -1,8 +1,8 @@
 # Set APP to the name of the application
-APP:=quazar-evm
+APP:=quasar-evm
 
 # Set APP_ENTRY_POINT to the main Go file for the application
-APP_ENTRY_POINT:=cmd/quazar-evm.go
+APP_ENTRY_POINT:=cmd/quasar-evm.go
 
 # Set BUILD_OUT_DIR to the directory where the built executable should be placed
 BUILD_OUT_DIR:=./
