@@ -48,6 +48,9 @@ tidy:
 update:
 	go get -u ./...
 
+generate-oracle:
+	abigen --abi=./abis/oracle.json --pkg=oracle --out=./contractsAPI/oracle/contract.go
+
 # The run target runs the application with race detection enabled
 run:
 	GODEBUG=xray_ptrace=1 go run -race $(APP_ENTRY_POINT) serve
