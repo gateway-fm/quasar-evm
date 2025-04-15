@@ -3,7 +3,7 @@ module quasar-evm
 go 1.19
 
 require (
-	github.com/ethereum/go-ethereum v1.13.14
+	github.com/ethereum/go-ethereum v1.13.15
 	github.com/gorilla/websocket v1.5.0
 	github.com/misnaged/annales v0.0.4
 	github.com/sirupsen/logrus v1.9.0
